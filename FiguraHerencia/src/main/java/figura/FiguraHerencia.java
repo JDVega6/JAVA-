@@ -25,11 +25,11 @@ public class FiguraHerencia {
         Poligono pol2 = new Poligono(p1, p2, p3,p4);
         
         //impresion de la info ejemplo AGREGACION
-//        System.out.println("x: " + pol2.getPuntos()[1].getX());
-//        System.out.println("y: " + pol2.getPuntos()[1].getY());
+        System.out.println("x: " + pol2.getPuntos()[1].getX());
+        System.out.println("y: " + pol2.getPuntos()[1].getY());
         
-        //
-//        System.out.println(tri1.getPuntos()[1].getX());
+        //impresion de la info ejemplo HERENCIA
+        System.out.println(tri1.getPuntos()[1].getX());
         for (Punto pt : tri1.getPuntos()){
             System.out.println("X: "+pt.getX());
             System.out.println("Y: "+pt.getY());
